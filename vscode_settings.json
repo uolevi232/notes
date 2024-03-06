@@ -1,0 +1,19 @@
+{
+    "bicep.enableSurveys": false,
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpen",
+        "-workbench.action.terminal.focusFind"
+    ],
+    "workbench.sideBar.location": "right",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never",
+    "window.openFilesInNewWindow": "on",
+    "workbench.editor.enablePreview": false,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.autoIndent": "keep",
+    "html.autoClosingTags": false,
+    "javascript.autoClosingTags": false
+}
