@@ -15,5 +15,10 @@
     "editor.cursorStyle": "block",
     "editor.autoIndent": "keep",
     "html.autoClosingTags": false,
-    "javascript.autoClosingTags": false
+    "javascript.autoClosingTags": false,
+    "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  }
 }
