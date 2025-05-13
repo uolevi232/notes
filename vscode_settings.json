@@ -3,7 +3,8 @@
     "terminal.integrated.allowChords": false,
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.quickOpen",
-        "-workbench.action.terminal.focusFind"
+        "-workbench.action.terminal.focusFind",
+        "-workbench.action.terminal.goToRecentDirectory"
     ],
     "workbench.sideBar.location": "right",
     "editor.autoClosingBrackets": "never",
