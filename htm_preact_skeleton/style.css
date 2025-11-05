@@ -1,0 +1,95 @@
+/* Reset some defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* Containers */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Links */
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+/* Buttons */
+button,
+input[type="button"],
+input[type="submit"] {
+  background-color: var(--accent);
+  color: var(--btn-text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+/* Forms */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background-color: var(--input-bg);
+  color: var(--text);
+}
+
+/* Simple card component */
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Light theme (default) */
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --link: #0066cc;
+  --accent: #0066cc;
+  --btn-text: #ffffff;
+  --border: #dddddd;
+  --input-bg: #fafafa;
+  --card-bg: #f9f9f9;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #e0e0e0;
+    --link: #66aaff;
+    --accent: #66aaff;
+    --btn-text: #121212;
+    --border: #333333;
+    --input-bg: #1e1e1e;
+    --card-bg: #1a1a1a;
+  }
+}
